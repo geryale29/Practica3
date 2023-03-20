@@ -35,5 +35,49 @@ public class MyUtilsTest {
     @AfterEach
     public void tearDown() {
     }
+
+    /**
+     * Test of inverteix method, of class MyUtils.
+     */
+    @Test
+    public void testInverteix() {
+        System.out.println("inverteix");
+        String cadena = "";
+        String expResult = "";
+        String result = MyUtils.inverteix(cadena);
+        assertEquals(expResult, result);
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+    }
+
+    /**
+     * Test of edat method, of class MyUtils.
+     */
+    @Test
+    public void testEdat() {
+        System.out.println("edat");
+        int day = 0;
+        int month = 0;
+        int year = 0;
+        int expResult = 0;
+        int result = MyUtils.edat(day, month, year);
+        assertEquals(expResult, result);
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+    }
+
+    /**
+     * Test of factorial method, of class MyUtils.
+     */
+    @Test
+    public void testFactorial() {
+        System.out.println("factorial");
+        double numero = 0.0;
+        double expResult = 0.0;
+        double result = MyUtils.factorial(numero);
+        assertEquals(expResult, result, 0);
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+    }
     
 }
