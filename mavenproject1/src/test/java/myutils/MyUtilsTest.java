@@ -42,12 +42,12 @@ public class MyUtilsTest {
     @Test
     public void testInverteix() {
         System.out.println("inverteix");
-        String cadena = "";
-        String expResult = "";
+        String cadena = null;
+        String expResult = null;
         String result = MyUtils.inverteix(cadena);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        
     }
 
     /**
@@ -56,14 +56,14 @@ public class MyUtilsTest {
     @Test
     public void testEdat() {
         System.out.println("edat");
-        int day = 0;
-        int month = 0;
-        int year = 0;
-        int expResult = 0;
+        int day = 29;
+        int month = 8;
+        int year = 2004;
+        int expResult = 18;
         int result = MyUtils.edat(day, month, year);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        
     }
 
     /**
@@ -72,12 +72,12 @@ public class MyUtilsTest {
     @Test
     public void testFactorial() {
         System.out.println("factorial");
-        double numero = 0.0;
-        double expResult = 0.0;
+        double numero = -2;
+        double expResult = -1;
         double result = MyUtils.factorial(numero);
         assertEquals(expResult, result, 0);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        
     }
     
 }

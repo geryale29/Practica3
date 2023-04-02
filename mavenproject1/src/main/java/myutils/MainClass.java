@@ -15,8 +15,9 @@ public class MainClass {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println(MyUtils.inverteix("Hola que tal como estas jajaja"));
-        
+        System.out.println(MyUtils.inverteix("Hola que tal como estas"));
+        System.out.println(MyUtils.edat(29, 8, 2004));
+        System.out.println(MyUtils.factorial(-2));
     }
     
 }
